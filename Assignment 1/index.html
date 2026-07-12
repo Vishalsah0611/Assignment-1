@@ -45,7 +45,7 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>Python</li>
-               
+            
             </ol>
         </section>
         <section id="projects">
@@ -62,11 +62,14 @@
         <section id="experience">
             <h2>Experience</h2>
             <table border="1">
-                <tr>
-                    <th>Company</th>
-                    <th>Role</th>
-                    <th>Duration</th>   
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Role</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Digi Mantra</td>
                     <td>Full Stack Developer</td>
@@ -84,6 +87,7 @@
                     </tr>
 
                 </tr>
+                </tbody>
             </table>
         </section>
         <section id="contact">
@@ -91,28 +95,28 @@
 
     <form>
 
-        <label>Full Name</label><br>
-        <input type="text">
+        <label for="full-name">Full Name</label><br>
+        <input id="full-name" type="text">
 
         <br>
 
-        <label>Email</label><br>
+        <label for="email">Email</label><br>
         <input type="email">
 
         <br>
 
-        <label>Phone Number</label><br>
-        <input type="number">
+        <label for="phone">Phone Number</label><br>
+        <input id="phone" type="number">
 
         <br>
 
-        <label>Subject</label><br>
-        <input type="text">
+        <label for="subject">Subject</label><br>
+        <input id="subject" type="text">
 
         <br>
 
-        <label>Message</label><br>
-        <textarea></textarea>
+        <label for="message">Message</label><br>
+        <textarea id="message"></textarea>
 
         <br>
 
@@ -126,9 +130,9 @@
 
         <br><br>
 
-        <button>Submit</button>
+        <button type="submit">Submit</button>
 
-        <button>Reset</button>
+        <button type="reset">Reset</button>
         
 
     </form>
