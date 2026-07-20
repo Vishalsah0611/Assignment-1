@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: blue;
+}
+
+section h3 {
+    color: green;
+}
+
+
+#home {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+#about p {
+    margin-bottom: 10px;
+}
+
+
+#skills ol {
+    margin-left: 20px;
+}
+
+#projects ol {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #222;
+    color: #fff;
+}
+
+
+form {
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    padding: 8px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+section a {
+    color: black;
+}
+
+section a:hover {
+  color: yellow;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: yellow;
+}
